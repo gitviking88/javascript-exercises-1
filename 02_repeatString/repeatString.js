@@ -18,7 +18,8 @@ console.log(repeatString("hey", 10));
 console.log(repeatString("hey", 1));
 console.log(repeatString("hey", 0));
 console.log(repeatString("hey", -1));
-console.log(repeatString("hey", number))
+console.log(repeatString("hey", number));
+console.log(repeatString("", 10));
 
 
 // Do not edit below this line
