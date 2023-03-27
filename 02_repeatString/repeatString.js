@@ -1,5 +1,5 @@
 const repeatString = function(str, num) {
-    if (num <= 0) {
+    if (num < 0) {
         return "ERROR";
     }
 
@@ -11,7 +11,15 @@ const repeatString = function(str, num) {
     return result;
 };
 
+const number = Math.floor(Math.random() * 1000);
+
 console.log(repeatString("hey", 3));
+console.log(repeatString("hey", 10));
+console.log(repeatString("hey", 1));
+console.log(repeatString("hey", 0));
+console.log(repeatString("hey", -1));
+console.log(repeatString("hey", number))
+
 
 // Do not edit below this line
 module.exports = repeatString;
